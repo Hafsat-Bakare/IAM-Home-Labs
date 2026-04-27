@@ -62,6 +62,19 @@ Key validation steps included:
 The issue was resolved after correcting GPO scope and ensuring Restricted Groups
 was applied at the computer level.
 
+## Evidence
+
+The following artifacts verify correct policy enforcement
+and least‑privilege behavior:
+
+- Domain OU structure (`ou-structure.png`)
+- Workstation OU placement (`workstation-ou-location.png`)
+- Restricted Groups GPO configuration (`gpo-restricted-groups.png`)
+- Local administrators membership validation (`local-admin-membership.png`)
+- Computer‑scoped RSOP output (`gpresult-computer-scope.png`)
+
+Screenshots are located in `/docs/screenshots/project1`.
+
 ## Lessons Learned
 
 - Domain Group Policy overrides local policy by design
