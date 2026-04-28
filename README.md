@@ -42,6 +42,12 @@ Focus: Identity governance and lifecycle access control
 **Documentation:**
 projects/project2-identity-lifecycle-jml.md
 
+## Project 3 – IAM Automation with PowerShell
+Focus: Operational efficiency and consistency
+- Automating joiner, mover, and leaver actions
+- Scripted group membership updates
+-	Reduced manual IAM operations
+-	Improved accuracy and repeatability
 
 ## Documentation
 Detailed design documentation and diagrams are available in the `/docs` directory.
