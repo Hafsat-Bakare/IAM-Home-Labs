@@ -1,1 +1,17 @@
+## Executive Summary
 
+This project demonstrates practical **Identity Lifecycle Management**
+using the **Joiner–Mover–Leaver (JML)** model.
+
+Built on an Active Directory foundation, it shows how user access is
+**provisioned, adjusted, and fully removed** as employees join the
+organization, change roles, or depart.
+
+The implementation emphasizes:
+- Role‑based access control (RBAC)
+- Least‑privilege access
+- Prevention of access creep
+- Audit‑ready validation and documentation
+
+This project reflects real‑world IAM operations commonly performed by
+IAM Analysts and Identity Operations teams.
