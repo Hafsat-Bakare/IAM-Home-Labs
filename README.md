@@ -16,16 +16,32 @@ The lab demonstrates:
 ## Architecture Summary
 - Windows Server 2022 (AD DS + DNS)
 - Windows 10/11 Enterprise clients
-- Clean OU design for policy & delegation
+- OU design for policy & delegation
 - Security groups for access control
 
-## Projects
-- **Project 1 – Enterprise Active Directory Foundation**
-  - Identity authority design
-  - OU structure & delegation
-  - RBAC and Group Policy enforcement
+## Project 1 – Enterprise Active Directory Foundation
+Focus: Identity architecture, RBAC, and policy enforcement
+-	Established Active Directory as the authoritative identity store
+-	Designed Organizational Units (OUs) for policy and delegation scope
+-	Implemented role-based access using security groups
+-	Enforced centralized local administrator control via Group Policy
+-	Validated policy application and least privilege behavior
 
-Additional projects expand this lab into hybrid Entra ID and cloud IAM.
+**Documentation**:
+projects/project1-enterprise-ad-foundation.md
+
+
+##  Project 2 – Identity Lifecycle Management (Joiner–Mover–Leaver)
+Focus: Identity governance and lifecycle access control
+-	Implemented Joiner workflows for secure onboarding
+-	Managed Mover scenarios to remove old access during role changes
+-	Performed Leaver offboarding with complete access removal
+-	Used attributes and RBAC to drive access decisions
+-	Captured validation evidence for each lifecycle phase
+
+**Documentation:**
+projects/project2-identity-lifecycle-jml.md
+
 
 ## Documentation
 Detailed design documentation and diagrams are available in the `/docs` directory.
