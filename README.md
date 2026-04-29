@@ -49,9 +49,6 @@ Focus: Operational efficiency and consistency
 -	Reduced manual IAM operations
 -	Improved accuracy and repeatability
 
-## Documentation
-Detailed design documentation and diagrams are available in the `/docs` directory.
-
 ## Project 4 – Hybrid Identity & Azure AD (Microsoft Entra ID) Deployment
 
 **Focus:** Full hybrid identity deployment and cloud integration
@@ -69,4 +66,4 @@ from on-premises infrastructure into the cloud while maintaining clear
 authority, governance boundaries, and audit-ready controls.
 
 ## Documentation:  
-`projects/project4-hybrid-identity.md`
+projects/project4-hybrid-identity.md
