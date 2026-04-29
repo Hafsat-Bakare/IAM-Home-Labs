@@ -51,3 +51,22 @@ Focus: Operational efficiency and consistency
 
 ## Documentation
 Detailed design documentation and diagrams are available in the `/docs` directory.
+
+## Project 4 – Hybrid Identity & Azure AD (Microsoft Entra ID) Deployment
+
+**Focus:** Full hybrid identity deployment and cloud integration
+- Creation and validation of a Microsoft Entra ID (Azure AD) tenant
+- Preparation of on-premises Active Directory as the authoritative identity source
+- Installation and configuration of Microsoft Entra Connect
+- Controlled synchronization of users, groups, and identity attributes
+- Selection and validation of Password Hash Synchronization (PHS)
+- Verification of hybrid authentication using on-prem credentials
+- Validation of synchronization health and operational status
+- Documentation of governance and lifecycle alignment in a hybrid IAM model
+
+This project demonstrates how enterprise identities are securely extended
+from on-premises infrastructure into the cloud while maintaining clear
+authority, governance boundaries, and audit-ready controls.
+
+## Documentation:  
+`projects/project4-hybrid-identity.md`
