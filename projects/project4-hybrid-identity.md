@@ -1,6 +1,6 @@
 # Project 4 – Hybrid Identity & Azure AD (Microsoft Entra ID) Deployment
 
-## Executive Summary
+## Summary
 
 This project documents the end‑to‑end deployment of a **hybrid identity environment**
 integrating an on‑premises Active Directory domain with **Microsoft Entra ID
